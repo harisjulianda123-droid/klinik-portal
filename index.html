@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal Informasi Klinik</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#eef1f4;color:#111;font-family:Georgia,"Times New Roman",serif}
+.container{max-width:1050px;margin:auto;background:#fff;min-height:100vh;padding:42px 70px 70px;box-shadow:0 0 25px #0001}
+header{display:flex;gap:20px;align-items:flex-start}
+.logo{width:92px;height:92px;flex:none}
+h1{font-size:32px;margin:4px 0 10px}
+.address{font-size:22px;line-height:1.35}
+.phone{margin-top:8px;color:#163b86;text-decoration:underline;font-size:21px}
+.status-icon{width:160px;height:160px;margin:45px 0 55px 110px}
+h2{font-size:27px;margin:0 0 14px}
+.value{font-size:25px}
+.status{color:#278b2a;font-weight:bold}
+.field{margin-bottom:48px}
+.notice{font-family:Arial,sans-serif;font-size:13px;color:#666;border-top:1px solid #ddd;padding-top:18px;margin-top:70px}
+@media(max-width:700px){
+.container{padding:28px 22px 55px}
+.logo{width:65px;height:65px}
+h1{font-size:23px}
+.address{font-size:16px}
+.phone{font-size:16px}
+.status-icon{width:115px;height:115px;margin:35px 0 45px 30px}
+h2{font-size:21px}.value{font-size:19px}.field{margin-bottom:36px}
+.search-row{flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<main class="container">
+<header>
+  <div class="logo">
+    <svg viewBox="0 0 120 120">
+      <path d="M58 7c-14 0-25 11-25 25v13H20C6 45 0 56 0 70s11 25 25 25h8v-8c0-10 8-18 18-18h14c10 0 18 8 18 18v8h8c14 0 25-11 25-25s-11-25-25-25H78V32C78 18 67 7 58 7Z"
+        fill="none" stroke="#d51d22" stroke-width="7"/>
+      <path d="M48 28h20v23h23v20H68v23H48V71H25V51h23Z" fill="#20a12c"/>
+    </svg>
+  </div>
+  <div>
+    <h1>Klinik Casa Medical Bengkong</h1>
+    <div class="address">Komplek Taman Sentosa Indah Blok F no 19 - Kota Batam</div>
+    <div class="phone">0778-452941</div>
+  </div>
+</header>
+
+<div class="status-icon">
+<svg viewBox="0 0 200 200">
+ <circle cx="100" cy="100" r="90" fill="#20a72b"/>
+ <path d="M55 101l30 30 64-68" fill="none" stroke="white" stroke-width="23"
+       stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</div>
+
+<section class="field">
+  <h2>Status</h2>
+  <div class="value status">VALID</div>
+</section>
+
+<section class="field">
+  <h2>No. Dokumen</h2>
+  <div class="value">202607-0055</div>
+</section>
+
+<section class="field">
+  <h2>Tanggal</h2>
+  <div class="value">26 Agustus 2026</div>
+</section>
+
+<section class="field">
+  <h2>Nama</h2>
+  <div class="value">Haris Julianda</div>
+</section>
+
+<section class="field">
+  <h2>Keterangan</h2>
+  <div class="value">Informasi administrasi dengan periode 26 Agustus 2026 s/d 26 Agustus 2026</div>
+</section>
+
+<section class="field">
+  <h2>Dokter</h2>
+  <div class="value">dr. Medylin Duallo</div>
+</section>
+
+<div class="notice">
+
+</div>
+</main>
+
+</body>
+</html>
